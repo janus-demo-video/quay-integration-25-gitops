@@ -1,0 +1,16 @@
+app:
+  name: quay-integration-25
+  namespace: quay-integration-25-dev
+  cluster: .apps.cluster-kzgjs.kzgjs.sandbox1534.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/janus-demo-video/quay-integration-25
+  org: janus-demo-video
+  name: quay-integration-25
+
+image:
+  registry: Quay
+  host: quay.io
+  organization: janus-demo-video
+  name: quay-integration-25
